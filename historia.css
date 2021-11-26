@@ -1,0 +1,36 @@
+
+.inicio, .resumo{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    line-height: 1.9rem;
+    font-size: 1.5rem;
+}
+.titulo{
+    font-size:3rem;
+    text-align: center;
+    line-height: 3.5rem;
+} 
+.w{
+    margin-bottom: 0;
+}
+#o{
+    margin-top: 0;
+    border-top: 0.5px solid black;
+}
+.inicio{
+    margin-bottom: 2rem;
+}
+.d{
+    display:grid;
+    grid-template-areas: 
+    "menu"
+    "in";
+    grid-template-columns: auto;
+    grid-template-rows:15vh ;
+}
+.mn{
+    grid-area: menu;
+}
+.espaço{
+    grid-area: in;
+}

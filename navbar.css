@@ -1,0 +1,18 @@
+.menu{
+   border-bottom: 0.5px solid rgb(23,23,23);
+  grid-area: menu;
+}
+#grid-menu-gl{
+   display:grid;
+   grid-template-areas: 
+    "menu"
+    "gl"
+   ;
+   grid-template-columns: auto;
+   grid-template-rows: 15vh ;
+}
+.gl{
+   grid-area: gl;
+}
+
+

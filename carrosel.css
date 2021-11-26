@@ -1,0 +1,42 @@
+.imagemc{
+    width:100%;
+    height:43vh;
+}
+.h5{
+    color: cornsilk;
+    text-shadow: 2px 2px 1px rgb(23,23,23);
+}
+.p{
+    color: cornsilk;
+    text-shadow: 2px 2px 1px rgb(23,23,23);
+}
+@media (min-width:0){
+    .imagemc{
+        height:15rem;
+        width:100%;
+    }
+}
+@media (min-width:440px){
+    .imagemc{
+        height:19rem;
+        width:100%;
+    }
+}
+@media (min-width:650px){
+    .imagemc{
+        height:27rem;
+        width:100%;
+    }
+}
+@media (min-width:800px){
+    .imagemc{
+        height:30rem;
+        width:100%;
+    }
+}
+@media (min-width:1040px){
+    .imagemc{
+        height:35rem;
+        width:100%;
+    }
+}

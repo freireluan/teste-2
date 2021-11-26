@@ -1,0 +1,11 @@
+.rodape{
+    background-color: rgba(1,78,2,1);
+    color:rgb(245,245,245);
+    height: 7rem;
+    margin-top: 0.7rem;
+}
+.rodape p{
+    margin-top: 1.7rem;
+    font-size: 1.3rem;
+    font-weight: 200;
+}

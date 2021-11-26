@@ -1,0 +1,102 @@
+.titulo{
+    
+    font-size:2.7rem;
+    text-align:center;
+    padding:1rem;
+    
+}
+
+
+.jogadoresm, .jogadoresd,.jogadoresg, .jogadoresa{
+    border:1px solid transparent;
+    margin:1.7rem;
+     display:flex;  
+     flex-wrap: wrap;  
+}
+.jogador:hover{
+    cursor: pointer;
+    font-size:1rem;
+    border:2px solid rgb(1,89,2)
+}
+.jogador{
+    display:inline-block;
+    
+    margin:0.6rem;
+    padding:0.4rem;
+    border: 0.7px solid rgba(23,23,23,0.9);
+}
+.nome:hover{
+    color:rgb(1,89,2);
+    font-size:1.198rem;
+}
+.tecnicos{
+    text-align:center;
+    width:97%;
+   
+   
+}
+.comisao{
+    border:1px solid rgb(32,23,34);
+}
+.comisao:hover{
+    cursor: pointer;
+    font-size:1rem;
+    border:2px solid rgb(1,89,2)
+}
+.comisao{
+    margin:1.7rem;
+}
+.nome{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+@media (min-width:0){
+    .jogador, .treinador{
+        display:block;
+        width: 100%;
+    }
+    .jogadoresm, .jogadoresd,.jogadoresg, .jogadoresa{
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+}
+@media (min-width:500px){
+    .jogador, .treinador{
+        display:inline;
+        width: 45%;
+    }
+    .jogadoresm, .jogadoresd,.jogadoresg, .jogadoresa{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+}
+@media (min-width:700px){
+    .jogador, .treinador{
+        display:inline;
+        width:30%;
+    }
+    .jogadoresm, .jogadoresd,.jogadoresg, .jogadoresa{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+}
+@media (min-width:1000px){
+    .jogador, .treinador{
+        display:inline;
+        width:20%;
+    }
+    .jogadoresg{
+        justify-content: center;
+    }
+}
+@media (min-width:1200px){
+    .jogador,.treinador{
+        display:inline;
+        width:17%;
+    }
+}

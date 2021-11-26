@@ -1,0 +1,15 @@
+.divs{
+    display:grid;
+   grid-template-areas: 
+    "menu"
+    "p"
+   ;
+   grid-template-columns: auto;
+   grid-template-rows: 12vh ;
+}
+.hj{
+    grid-area: menu;
+}
+.kjh{
+    grid-area: p;
+}
